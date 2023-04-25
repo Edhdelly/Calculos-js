@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculando valores</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="somando">
+            <h1>Somando</h1>
+            <input type="number" name="txt-som-1" id="txt-som-1"> <span>+</span>
+            <input type="number" name="txt-som-2" id="txt-som-2">
+            <div class="botao"><input type="button" value="Somar" onclick="somar()"></div>
+            <h2 id="res-soma">Resultado:</h2>
+        </div>
+        <div class="subtraindo">
+            <h1>Subtraindo</h1>
+            <input type="number" name="txt-sub-1" id="txt-sub-1"> <span>-</span>
+            <input type="number" name="txt-sub-2" id="txt-sub-2">
+            <div class="botao"><input type="button" value="Subtrair" onclick="subtrair()"></div>
+            <h2 id="res-sub">Resultado:</h2>
+        </div>
+        <div class="multiplicando">
+            <h1>Multiplicando</h1>
+            <input type="number" name="txt-mult-1" id="txt-mult-1"> <span>X</span>
+            <input type="number" name="txt-mult-2" id="txt-mult-2">
+            <div class="botao"><input type="button" value="Multiplicar" onclick="multiplicar()"></div>
+            <h2 id="res-mult">Resultado:</h2>
+        </div>
+        <div class="dividindo">
+            <h1>Dividindo</h1>
+            <input type="number" name="txt-div-1" id="txt-div-1"> <span>/</span>
+            <input type="number" name="txt-div-2" id="txt-div-2">
+            <div class="botao"><input type="button" value="Dividir" onclick="dividir()"></div>
+            <h2 id="res-div">Resultado:</h2>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
